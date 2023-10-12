@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineHome} from 'react-icons/ai'
 import { MdOutlineWork } from 'react-icons/md'
 import { BiSolidContact } from 'react-icons/bi'
