@@ -1,5 +1,3 @@
-import React from 'react'
-
 const About = () => {
   return (
     <div id='About' className='flex justify-center items-center bg-[#FFFBF5] w-full h-screen'>
