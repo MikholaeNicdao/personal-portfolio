@@ -9,7 +9,7 @@ import TailWind from '../assets/tailwind.png'
 
 const Experience = () => {
   return (
-    <div id='Experience' className='w-full h-screen bg-[#ffedd1] text-slate-950'>
+    <div id='Experience' className='w-full h-screen text-black'>
       <div className='p-10 md:p-20'>
         <p className='border-b-2 border-[#FD4556] text-5xl font-bold'>Experience</p>
         <p className='pt-5'>// These are the Technologies I've worked with</p>
