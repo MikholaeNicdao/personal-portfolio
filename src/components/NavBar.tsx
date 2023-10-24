@@ -6,7 +6,6 @@ import { BsPersonWorkspace } from 'react-icons/bs'
 import { RxAvatar } from 'react-icons/rx'
 
 const NavBar = () => {
-  const logo = <h1 className='font-bold text-lg text-[#FD4556] md:text-2xl'>DevMiks</h1>
   const [nav, setNav] = useState(false)
   const handleNav = () => {
     setNav(!nav)
@@ -14,7 +13,8 @@ const NavBar = () => {
 
   return (
     <div className='flex w-full max-w-[800px] justify-between items-center m-auto p-5 text-[#000000]'>
-      {logo}
+      <img src="/site_logo.svg" alt="logo" className='w-20 hidden md:flex' />
+      <h1 className='font-bold text-lg text-[#FD4556] cursor-default md:text-2xl'>DevMiks</h1>
       <nav className='hidden md:flex gap-5'>
         <a href='#Home' className='p-2 ease-out duration-200 hover:text-[#BD3944] hover:border-b-[1px] hover:border-[#BD3944]'>Home</a>
         <a href='#About' className='p-2 ease-out duration-200 hover:text-[#BD3944] hover:border-b-[1px] hover:border-[#BD3944]'>About</a>
